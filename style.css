@@ -1,0 +1,45 @@
+html, body {
+    font-family: roboto, sans-serif;
+
+}
+
+body {
+    background-color: #1f2937;    
+    padding: 0px 128px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+ul {
+    display: flex;
+    gap: 16px;
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style-type: none;
+}
+
+.header-links {
+    color: gray;
+    font-size: small;
+}
+
+.header-logo {
+    color: white;
+    font-weight: 700;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.subsec1 {
+    display: flex;
+}
