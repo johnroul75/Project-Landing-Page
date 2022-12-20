@@ -173,3 +173,53 @@ button {
     color: #1f2937;
     font-weight: 900;
 }
+
+.ad {
+    background-color: #3882f6;
+    height: 100px;
+    flex: 1;
+    border-radius: 8px;
+    display: flex;
+
+}
+
+.section-4 {
+    background-color: white;
+    display: flex;
+    flex: auto; 
+    padding: 0px 128px;
+    height: 377px;
+    align-items: center;
+}
+
+.call-to-action {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex: 2;
+    padding-left: 120px;
+}
+
+.call-1 {
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.call-2 {
+    color: white;
+    font-size: 10px;
+    font-weight: lighter;
+}
+
+.button {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    border: white solid 1px;
+}
